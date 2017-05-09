@@ -25,7 +25,7 @@ class BoardController extends Controller
     	return view('board', ['board' => $MyBoard, 'lists' => $this->_get_my_tasklist()]);
     }
 
-    public function add_list(Request $request) 
+    public function board_list(Request $request) 
     {
     	$this->_board_id = $request->input('board_id') ?? 0;
 

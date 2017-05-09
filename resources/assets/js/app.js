@@ -13,9 +13,9 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-// Vue.component('example', require('./components/Example.vue'));
-// Vue.component('block-template', require('./components/Block.vue'));
+Vue.component('dragula', require('./components/Dragula.vue'));
+Vue.component('dashboard', require('./components/Dashboard.vue'));
 
-// const app = new Vue({
-//     el: '#app'
-// });
+const app = new Vue({
+    el: '#app'
+});
